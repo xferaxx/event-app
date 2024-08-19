@@ -5,7 +5,7 @@ from Users import User
 users = []
 
 myDB = mysql.connector.connect(
-    host='localhost',
+    host='host.docker.internal',  # local host if using xampp
     user='root',
     password='',
     database='db'
